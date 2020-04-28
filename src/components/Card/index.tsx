@@ -1,19 +1,25 @@
-import React, { FunctionComponent } from 'react'
+import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { CardModel } from '../../model/cards';
 
 import { Title, Subtitle } from './styles';
+import { PaletteModel } from '../../model/palettes';
 
-const Card: FunctionComponent<CardModel> = (model) => {
+type CardProps = {
+  model: CardModel,
+  palette?: PaletteModel,
+};
+
+const Card = ({model, palette}: CardProps) => {
+
   return (
     <div>
-      <Title>{model.title}</Title>
-      <Title>{model.number}</Title>
-      <FontAwesomeIcon icon={model.icon} size="8x"/>
+      <Title color={palette?.title}>{model.title}</Title>
+      <FontAwesomeIcon icon={model.icon} size="8x" color={palette?.icon}/>
       <br />
       &nbsp;
       <br />
-      <Subtitle>{model.subtitle}</Subtitle>
+      <Subtitle color={palette?.subtitle}>{model.subtitle}</Subtitle>
     </div>
   )
 }

@@ -7,7 +7,7 @@ export const Container = styled(bootstrap.Container)`
   align-items: center;
   height: 100vh;
 
-  background-color: red;
+  background-color: ${({color}) => color ? color : '#ccc' };
 `;
 
 export const Row = styled(bootstrap.Row)`
