@@ -26,7 +26,7 @@ const Arrow: FunctionComponent<ArrowProps> = ({ direction = 'up', onClick}) => {
 
   return (
     <Button variant="link" onClick={onClick}>
-      <FontAwesomeIcon icon={getIcon()} />
+      <FontAwesomeIcon icon={getIcon()} size="2x" />
     </Button>
   )
 }

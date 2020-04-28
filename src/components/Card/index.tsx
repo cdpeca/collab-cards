@@ -2,12 +2,17 @@ import React, { FunctionComponent } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { CardModel } from '../../model/cards';
 
+import { Title, Subtitle } from './styles';
+
 const Card: FunctionComponent<CardModel> = (model) => {
   return (
     <div>
-      <h1>{model.title}</h1>
-      <h2>{model.subtitle}</h2>
-      <FontAwesomeIcon icon={model.icon} />
+      <Title>{model.title}</Title>
+      <FontAwesomeIcon icon={model.icon} size="8x"/>
+      <br />
+      &nbsp;
+      <br />
+      <Subtitle>{model.subtitle}</Subtitle>
     </div>
   )
 }
