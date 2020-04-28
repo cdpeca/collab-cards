@@ -38,7 +38,8 @@ function MainView() {
           <Card 
             title={card.title}
             subtitle={card.subtitle}
-            icon={card.icon} />
+            icon={card.icon}
+            number={card.number} />
         </Col>
         
         <Col>

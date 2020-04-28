@@ -8,6 +8,7 @@ const Card: FunctionComponent<CardModel> = (model) => {
   return (
     <div>
       <Title>{model.title}</Title>
+      <Title>{model.number}</Title>
       <FontAwesomeIcon icon={model.icon} size="8x"/>
       <br />
       &nbsp;
