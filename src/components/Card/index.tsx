@@ -14,11 +14,8 @@ const Card = ({model, palette}: CardProps) => {
 
   return (
     <div>
-      <Title color={palette?.title}>{model.title}</Title>
+      <Title color={palette?.title} number={model.number}>{model.title}</Title>
       <FontAwesomeIcon icon={model.icon} size="8x" color={palette?.icon}/>
-      <br />
-      &nbsp;
-      <br />
       <Subtitle color={palette?.subtitle}>{model.subtitle}</Subtitle>
     </div>
   )

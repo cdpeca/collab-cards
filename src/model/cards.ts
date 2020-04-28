@@ -5,7 +5,7 @@ export interface CardModel {
     title?: string;
     subtitle?: string;
     icon: IconProp;
-    number?: number;
+    number?: boolean;
 };
 
 export const Cards: CardModel[] = [
@@ -51,23 +51,28 @@ export const Cards: CardModel[] = [
     },
     {
         icon: faEllipsisH,
-        number: 1,
+        title: '1',
+        number: true,
     },
     {
         icon: faEllipsisH,
-        number: 2,
+        title: '2',
+        number: true,
     },
     {
         icon: faEllipsisH,
-        number: 3,
+        title: '3',
+        number: true,
     },
     {
         icon: faEllipsisH,
-        number: 4,
+        title: '4',
+        number: true,
     },
     {
         icon: faEllipsisH,
-        number: 5,
+        title: '5',
+        number: true,
     },
     {
         icon: faQuestion,
