@@ -1,20 +1,13 @@
-import React from 'react'
+import React, { FunctionComponent } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { CardModel } from '../../model/cards';
 
-type CardProps = {
-  title: string,
-  subtitle?: string,
-  image: string,
-}
-
-const Card = ({title, subtitle, image}: CardProps) => {
+const Card: FunctionComponent<CardModel> = (model) => {
   return (
     <div>
-      <h1>{title}</h1>
-      <h2>{subtitle}</h2>
-      <FontAwesomeIcon icon={faCoffee} />
-      <h3>{image}</h3>
+      <h1>{model.title}</h1>
+      <h2>{model.subtitle}</h2>
+      <FontAwesomeIcon icon={model.icon} />
     </div>
   )
 }
