@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import React from 'react';
 
 import './App.css';
 import MainView from './Views/MainView';

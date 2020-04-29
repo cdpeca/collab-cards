@@ -3,13 +3,13 @@ import React, { useState } from 'react';
 import Card from '../../components/Card';
 import Arrow from '../../components/Arrow';
 import { Cards } from '../../model/cards';
-import { PaletteModel, getPalete } from '../../model/palettes';
+import { PaletteModel, getPalette } from '../../model/palettes';
 
 import { Container, Row, Col } from './styles';
 
 function MainView() {
   const [current, setCurrent] = useState(0);
-  const [curPalette, setCurPalette] = useState<PaletteModel | undefined>(getPalete());
+  const [curPalette, setCurPalette] = useState<PaletteModel | undefined>(getPalette());
 
   let card = Cards[current];
   
@@ -19,8 +19,7 @@ function MainView() {
     const next = current - 1;
     const value = next < 0 ? max : next;
 
-    setCurPalette(getPalete());
-
+    setCurPalette(getPalette());
     setCurrent(value);
   }
 
@@ -29,7 +28,7 @@ function MainView() {
     const value = next > max ? 0 : next;
   
     setCurrent(value);
-    setCurPalette(getPalete());
+    setCurPalette(getPalette());
   }
 
   return (

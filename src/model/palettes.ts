@@ -88,7 +88,7 @@ export const Palettes: PaletteModel[] = [
   },
 ];
 
-export const getPalete = () => {
+export const getPalette = () => {
   const next = Palettes[Math.floor(Math.random() * Palettes.length)];
   return next;
 }
