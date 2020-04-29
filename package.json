@@ -1,6 +1,6 @@
 { 
-  "homepage": "https://hyrwing.github.io/colab-cards/",
-  "name": "colab-cards",
+  "homepage": "https://hyrwing.github.io/collab-cards/",
+  "name": "collab-cards",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
