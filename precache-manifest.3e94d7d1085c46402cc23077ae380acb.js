@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a869c9e5eadce481a185254c9094d778",
+    "revision": "d7deb42409303b945ca4391341902395",
     "url": "/collab-cards/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/collab-cards/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "b445b2d979e5f7d63a14",
+    "revision": "9664d88ec4db6007bc6c",
     "url": "/collab-cards/static/css/main.8ab6f918.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/collab-cards/static/js/2.31d45890.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b445b2d979e5f7d63a14",
-    "url": "/collab-cards/static/js/main.8d2e64b1.chunk.js"
+    "revision": "9664d88ec4db6007bc6c",
+    "url": "/collab-cards/static/js/main.8a478838.chunk.js"
   },
   {
     "revision": "1d6138174678662ec7e7",
