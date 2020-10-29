@@ -1,20 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Route, HashRouter } from "react-router-dom";
 
 import './App.css';
 import MainView from './Views/MainView';
 import OctopusView from './Views/OctopusView';
 
 const App = () =>
-  <Router>
-    <Switch>
-      <Route path="/octopus">
-        <OctopusView />
-      </Route>
-      <Route path="/">
-        <MainView />
-      </Route>
-    </Switch>
-  </Router>;
+  <HashRouter basename="/">
+      <Route path="/octopus" component={OctopusView} />
+      <Route exact path="/" component={MainView} />
+  </HashRouter>;
 
 export default App;
