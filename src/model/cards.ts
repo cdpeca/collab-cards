@@ -78,3 +78,36 @@ export const Cards: CardModel[] = [
         icon: faQuestion,
     }
 ];
+
+export const OctopusCards: CardModel[] = [
+    {
+        icon: faEllipsisH,
+        title: '1',
+        number: true,
+    },
+    {
+        icon: faEllipsisH,
+        title: '2',
+        number: true,
+    },
+    {
+        icon: faEllipsisH,
+        title: '3',
+        number: true,
+    },
+    {
+        icon: faEllipsisH,
+        title: '4',
+        number: true,
+    },
+    {
+        icon: faEllipsisH,
+        title: '5',
+        number: true,
+    },
+    {
+        icon: faEllipsisH,
+        title: '6',
+        number: true,
+    },
+];
