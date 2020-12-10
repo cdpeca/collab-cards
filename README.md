@@ -1,8 +1,8 @@
 ## Homepage
 
-https://cdpeca.github.io/collab-cards/ - My local version, forked from hrywing original
+https://cdpeca.github.io/collab-cards/ - My local version, forked from hyrwing original
 
-https://hyrwing.github.io/collab-cards/ - The legend who created the original, all credit to hryqing
+https://hyrwing.github.io/collab-cards/ - The legend who created the original, all credit to hyrwing
 
 ---
 
