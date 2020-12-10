@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/collab-cards/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/collab-cards/static/js/main.31aa8c53.chunk.js",
-    "main.js.map": "/collab-cards/static/js/main.31aa8c53.chunk.js.map",
-    "runtime-main.js": "/collab-cards/static/js/runtime-main.b98a4670.js",
-    "runtime-main.js.map": "/collab-cards/static/js/runtime-main.b98a4670.js.map",
-    "static/css/2.8213182e.chunk.css": "/collab-cards/static/css/2.8213182e.chunk.css",
-    "static/js/2.6c4de456.chunk.js": "/collab-cards/static/js/2.6c4de456.chunk.js",
-    "static/js/2.6c4de456.chunk.js.map": "/collab-cards/static/js/2.6c4de456.chunk.js.map",
+    "main.css": "/collab-cards/static/css/main.5f361e03.chunk.css",
+    "main.js": "/collab-cards/static/js/main.50a7f335.chunk.js",
+    "main.js.map": "/collab-cards/static/js/main.50a7f335.chunk.js.map",
+    "runtime-main.js": "/collab-cards/static/js/runtime-main.d09939ef.js",
+    "runtime-main.js.map": "/collab-cards/static/js/runtime-main.d09939ef.js.map",
+    "static/css/2.2a86faee.chunk.css": "/collab-cards/static/css/2.2a86faee.chunk.css",
+    "static/js/2.9af24ecc.chunk.js": "/collab-cards/static/js/2.9af24ecc.chunk.js",
+    "static/js/2.9af24ecc.chunk.js.map": "/collab-cards/static/js/2.9af24ecc.chunk.js.map",
     "index.html": "/collab-cards/index.html",
-    "static/css/2.8213182e.chunk.css.map": "/collab-cards/static/css/2.8213182e.chunk.css.map",
-    "static/css/main.ab7136cd.chunk.css.map": "/collab-cards/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.6c4de456.chunk.js.LICENSE.txt": "/collab-cards/static/js/2.6c4de456.chunk.js.LICENSE.txt"
+    "precache-manifest.91bdcd04160350296aad97e25686fd79.js": "/collab-cards/precache-manifest.91bdcd04160350296aad97e25686fd79.js",
+    "service-worker.js": "/collab-cards/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/collab-cards/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/collab-cards/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.9af24ecc.chunk.js.LICENSE.txt": "/collab-cards/static/js/2.9af24ecc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b98a4670.js",
-    "static/css/2.8213182e.chunk.css",
-    "static/js/2.6c4de456.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.31aa8c53.chunk.js"
+    "static/js/runtime-main.d09939ef.js",
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.9af24ecc.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.50a7f335.chunk.js"
   ]
 }
